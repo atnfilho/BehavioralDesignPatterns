@@ -1,1 +1,1 @@
-# BehaviorsDesignPatterns
+# BehavioralDesignPatterns
