@@ -17,5 +17,5 @@ $orcamento = new Orcamento();
 $orcamento->valor = 600;
 $orcamento->quantidadeItens = 5;
 
-echo $calculadora->calcula($orcamento, new Icpp());
+echo $calculadora->calcula($orcamento, new Ickv());
 // echo $calculadoraDescontos->calculaDescontos($orcamento);

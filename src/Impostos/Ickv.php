@@ -13,11 +13,13 @@ class Ickv extends ImpostoComDuasAliquotas
 
     protected function calculaTaxaMaxima(Orcamento $orcamento): float
     {
+        echo "calculo da taxa máxima".PHP_EOL;
         return $orcamento->valor * 0.04;
     }
 
     protected function calculaTaxaMinima(Orcamento $orcamento): float
     {
+        echo "calculo da taxa minima".PHP_EOL;
         return $orcamento->valor * 0.025;
     }
 }
